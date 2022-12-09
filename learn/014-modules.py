@@ -10,3 +10,8 @@ import modules
 modules.aaa()
 modules.bbb()
 modules.ccc()
+
+# or we can write
+# from modules import *
+# and run funcs with simple
+# aaa()
