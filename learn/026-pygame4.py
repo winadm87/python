@@ -13,14 +13,14 @@ max_x = 800
 max_y = 800
 # define snow quantity and size
 max_snow = 100
-snow_size = 64
+snow_size = 32
 
 class snow():
     """class for snow"""
     def __init__(self, x, y):
         self.x = x
         self.y = y
-        # slightly random speed of snoflakes
+        # slightly random speed of snowflakes
         self.speed = random.randint(1, 3) # random speed for snowflakes
         self.img_num = random.randint(1, 4) # we have 4 pictures
         # define pictures in the same folder
@@ -35,7 +35,7 @@ class snow():
         # after bottom - goes from top
         if self.y - max_y:
             self.y = (0 - snow_size)
-        i = random.randint(1, 3)
+        i = random.randint(1, 2)
         if i == 1: # move right
             self.x = self.x + 1
             if self.x > max_x:
@@ -52,7 +52,7 @@ def initialize_snow(max_snow, snowfall):
         # define default snowflake position
         xx = random.randint(0, max_x)
         yy = random.randint(0, max_y)
-        # add snoflake to array
+        # add snowflakes to array by calling out class snow
         snowfall.append(snow(xx, yy))
 def check_for_exit():
     for event in pygame.event.get():
