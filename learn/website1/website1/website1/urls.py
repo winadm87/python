@@ -25,4 +25,6 @@ urlpatterns = [
     path('hello/', include('page1.urls', namespace='page1')),
     # add another page from index file
     path('page2/', include('page2.urls', namespace='page2')),
+    # and one more page
+    path('page3/', include('page3.urls', namespace='page3'))
 ]

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>This is page 3 from django learning</title>
+</head>
+<body background={% static "webpage3/picture1.jpg" %}>
+<center>
+    <h1>Hello from winadm</h1>
+    <br> Lets try some hyperlinks to other pages</br>
+    <br><a href="{{ github_url }}">Link To Github</a>
+    <br><a href="{{ page_with_pictures }}">Page to teddybear</a>
+</center>
+</body>
+</html>
