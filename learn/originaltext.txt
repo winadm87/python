@@ -1,0 +1,13 @@
+new file
+sdlkfj
+4
+bfoije8tj
+this is some eggs
+that is new string
+that is even  more string
+offspirng
+oxxy
+
+this is some eggs
+that is end of file
+EOF EOF EOF
