@@ -5,6 +5,7 @@
 # Examples
 # ...
 # ----------------------------------
+import datetime
 from datetime import *
 
 # read current date
@@ -22,3 +23,14 @@ print(f"The custom date is: {custom_date.day}-{custom_date.month}-{custom_date.y
 # calculated date, lets try to divide pare of dates
 calculated_date = custom_date - current_date
 print(f"Calculated date is: {calculated_date}")
+
+# lets play with full date and time
+current_date_time = datetime.now()
+print(f"Current date and time is {current_date_time}")
+print(f"Current formatted date and time is {current_date_time.hour}-{current_date_time.minute}--{current_date_time.day}-{current_date_time.month}-{current_date_time.year}")
+date_time_formatted = str(current_date_time.hour) + "-" + str(current_date_time.minute) + "--" + str(current_date_time.day) + "-" + str(current_date_time.month) + "-" + str(current_date_time.year)
+print(date_time_formatted)
+filename = "testlog_" + date_time_formatted + ".log"
+print(filename)
+logfile = open(filename, mode='w')
+logfile.write("This is test file")
