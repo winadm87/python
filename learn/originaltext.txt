@@ -2,12 +2,15 @@ new file
 sdlkfj
 4
 bfoije8tj
+info@bbb.cc
 this is some eggs
 that is new string
 that is even  more string
 offspirng
 oxxy
-
+aaa@bbb.cc
+email@address.com
 this is some eggs
+apes@together.strong
 that is end of file
 EOF EOF EOF
