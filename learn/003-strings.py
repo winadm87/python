@@ -1,6 +1,14 @@
+# ----------------------------------
+# This script is used for learning
+# Created by winadm
+# Version 0.1
+# Examples
+# ...
+# ----------------------------------
 mystring = "hello pychar"
 name = "mr petr puSHkin"
 print(name)
+print(name[0])
 # lets up first letters
 print(name.title())
 # lets up all leterrs
