@@ -28,3 +28,9 @@ print(str(n1) + "+" + str(n2) + "=" + str(sum))
 # lets look at f-string
 value = 5
 print(f"The base value is {value}, it must be multiplied by 10, so the new value is: {value*10}")
+# swap values
+a = 1
+b = 2
+print(f"a = {a}, b = {b}")
+a, b = b, a
+print(f"a = {a}, b = {b}")
