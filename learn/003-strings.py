@@ -9,6 +9,9 @@ mystring = "hello pychar"
 name = "mr petr puSHkin"
 print(name)
 print(name[0])
+print(name[3:12])
+# slice says name[start:stop:step]
+print(name[3:12:2])
 # lets up first letters
 print(name.title())
 # lets up all leterrs
