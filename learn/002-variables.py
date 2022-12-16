@@ -1,3 +1,10 @@
+# ----------------------------------
+# This script is used for learning
+# Created by winadm
+# Version 0.1
+# Examples
+# ...
+# ----------------------------------
 # define two variables and print them
 a = "Hello"
 b = "John"
@@ -18,3 +25,6 @@ n2 = 555
 sum = n1 + n2
 print(n1+n2)
 print(str(n1) + "+" + str(n2) + "=" + str(sum))
+# lets look at f-string
+value = 5
+print(f"The base value is {value}, it must be multiplied by 10, so the new value is: {value*10}")
