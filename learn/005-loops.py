@@ -1,4 +1,14 @@
+# ----------------------------------
+# This script is used for learning
+# Created by winadm
+# Version 0.1
+# Examples
+# ...
+# ----------------------------------
 # for loop
+# this loop will show first empty string, because str*0 = 0
+for i in range(5):
+    print("Hello-" * i)
 print("first loop")
 for x in range(0, 10):
     print("current x:" + str(x + 1))
