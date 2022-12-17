@@ -35,4 +35,6 @@ print(enemy.keys())
 print(enemy.values())
 # print all
 print(enemy.items())
-
+# another print all
+for key,value in enemy.items():
+    print(key, value)
