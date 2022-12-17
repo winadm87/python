@@ -1,3 +1,10 @@
+# ----------------------------------
+# This script is used for learning
+# Created by winadm
+# Version 0.1
+# Examples
+# ...
+# ----------------------------------
 enemy = {
     'loc_x': 70,
     'loc_y': 50,
@@ -22,6 +29,10 @@ if enemy['health'] < 75:
     enemy['color'] = 'yellow'
 print(enemy)
 
+# print only keys
 print(enemy.keys())
+# print only values
 print(enemy.values())
+# print all
+print(enemy.items())
 
