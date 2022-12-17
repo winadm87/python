@@ -38,3 +38,6 @@ print(enemy.items())
 # another print all
 for key,value in enemy.items():
     print(key, value)
+# and one more variant with tuple
+for pair in enemy.items():
+    print(pair)
