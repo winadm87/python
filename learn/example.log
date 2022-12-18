@@ -1,0 +1,9 @@
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+ERROR:root:And non-ASCII stuff, too, like Øresund and Malmö
+WARNING:root:Look before you leap!
+WARNING:root:this is var1 - abc and var2 - MF
+DEBUG:root:This message should appear on the console
+INFO:root:So should this
+WARNING:root:And this, too

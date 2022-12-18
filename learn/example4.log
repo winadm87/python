@@ -1,0 +1,3 @@
+14:48:32 18.12.2022 root INFO Execution of the script is started
+14:48:32 18.12.2022 root INFO Lets try-catch exception and write it to log as error-level
+14:48:34 18.12.2022 root ERROR While searching list for index error occured: list index out of range
