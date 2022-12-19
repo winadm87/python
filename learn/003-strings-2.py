@@ -24,7 +24,12 @@ print("%s" % "some text")
 # join
 message = ' '.join(['this' ,'is', 'a', 'useful', 'method'])
 print(message)
-message = "this is an exemple".split(" is ")
+message = "this is an example".split(" is ")
 print(message)
-message = "this is an exemple".partition(" is ")
+message = "this is an example".partition(" is ")
 print(message)
+# f-string example
+# The end parameter for print() is an empty string ("") so it won’t output a newline at the end of the string
+# -^15 output 15 chars, center align, fill any space with (-)
+name = "vasya"
+print(f'{name:-^15}', end='')
