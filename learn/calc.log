@@ -1,0 +1,28 @@
+14:35:46 19.12.2022 root INFO Execution of the calc script is started
+14:35:46 19.12.2022 root INFO Asking user for operation type
+14:35:50 19.12.2022 root WARNING User have chosen strange operation wef34, re-asking for input
+14:35:51 19.12.2022 root INFO User chosen addiction
+14:35:51 19.12.2022 root INFO Asking user for numbers
+14:35:53 19.12.2022 root INFO User defined numbers 123.0 and 543.0
+14:35:53 19.12.2022 root INFO Trying to perform addiction operation on numbers 123.0 and 543.0
+14:35:53 19.12.2022 root INFO Summ is equal to: 666.0
+14:35:53 19.12.2022 root INFO Operation completed, asking for continue
+14:35:58 19.12.2022 root INFO User chosen subtraction
+14:35:58 19.12.2022 root INFO Asking user for numbers
+14:36:02 19.12.2022 root INFO User defined numbers 423.0 and 423.0
+14:36:02 19.12.2022 root INFO Trying to perform subtraction operation on numbers 423.0 and 423.0
+14:36:02 19.12.2022 root INFO Subtraction is equal to: 0.0
+14:36:02 19.12.2022 root INFO Operation completed, asking for continue
+14:36:08 19.12.2022 root INFO User chosen multiplication
+14:36:08 19.12.2022 root INFO Asking user for numbers
+14:36:14 19.12.2022 root INFO User defined numbers -11.0 and 0.0
+14:36:14 19.12.2022 root INFO Trying to perform multiplication operation on numbers -11.0 and 0.0
+14:36:14 19.12.2022 root INFO Multiplication is equal to: -0.0
+14:36:14 19.12.2022 root INFO Operation completed, asking for continue
+14:36:17 19.12.2022 root INFO User chosen division
+14:36:17 19.12.2022 root INFO Asking user for numbers
+14:36:20 19.12.2022 root INFO User defined numbers 12.0 and 0.0
+14:36:20 19.12.2022 root INFO Trying to perform division operation on numbers 12.0 and 0.0
+14:36:20 19.12.2022 root ERROR Division operation failed with error: float division by zero
+14:36:20 19.12.2022 root INFO Operation completed, asking for continue
+14:36:23 19.12.2022 root INFO Script execution completed, exiting
