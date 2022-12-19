@@ -33,3 +33,6 @@ print(message)
 # -^15 output 15 chars, center align, fill any space with (-)
 name = "vasya"
 print(f'{name:-^15}', end='')
+print('\n')
+print('this {0} string'.format('is'))
+print('this {word} string'.format(word='is'))
