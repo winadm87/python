@@ -18,3 +18,13 @@ for i in string_splitted:
     print(i)
     i = i[1:] # split one letter from left
     print(i)
+# once more example string % values
+print("%s %s" % ("a", "b"))
+print("%s" % "some text")
+# join
+message = ' '.join(['this' ,'is', 'a', 'useful', 'method'])
+print(message)
+message = "this is an exemple".split(" is ")
+print(message)
+message = "this is an exemple".partition(" is ")
+print(message)
